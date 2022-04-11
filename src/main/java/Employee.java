@@ -1,3 +1,8 @@
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+
+import java.util.List;
+
 public class Employee {
     public long id;
     public String firstName;
@@ -15,6 +20,9 @@ public class Employee {
         this.lastName = lastName;
         this.country = country;
         this.age = age;
+    }
+    public Employee(String smth) {
+
     }
 
     @Override
